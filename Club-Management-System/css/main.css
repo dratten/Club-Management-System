@@ -1,0 +1,116 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+}
+
+#container{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#container nav{
+	height: 75px;
+	width: 100%;
+	overflow: hidden;
+}
+
+nav .links{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+nav .log-reg-btns{
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+.links ul li, .log-reg-btns ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.links a, .log-reg-btns a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	border-radius: 100px;
+}
+
+a.call-to-action{
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 100px;
+	background-color: #3498db;
+	color: #fff;
+}
+
+.log-reg-btns form{
+	margin-top: 8px;
+}
+
+form input{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+form input[type = "submit"]{
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+section{
+	padding: 30px;
+	margin: 20px 0px;
+}
+
+#container .modal{
+	width: 700px;
+	margin: 50px auto;
+	background-color: #fff;
+}
+
+.modal form input{
+	height: 25px;
+	width: 400px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #999;
+}
+
+.modal form input[type="submit"]{
+ 	border: none;
+ 	height: 60px;
+ 	width: 420px;
+
+}
+
+.fail{
+	color: #e74c3c;
+}
+
+.success{
+	color: #2ecc71;
+}
+
+
+
+

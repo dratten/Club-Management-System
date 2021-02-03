@@ -1,0 +1,133 @@
+
+      #clubslist td:nth-child(4), #clubslist td:nth-child(5) 
+                {
+
+                 text-align:center !important;
+                }
+
+        #clubslist td:nth-child(2), #clubslist td:nth-child(3) 
+                {
+
+                 text-align:left !important;
+                }
+        .star
+            {
+                color:red; 
+            }
+       
+            
+        html,body
+            {
+                background-color: white;
+            }
+
+        #clubslist th
+            {
+                border-bottom:2px solid;
+                border-color: grey;
+            }
+        #clubslist 
+            {
+                border-bottom:none;
+            }
+
+        .dataTables_wrapper .dataTables_filter
+            {
+                float:right;text-align:left;
+            }
+        .dataTables_wrapper .dataTables_filter input
+            {
+                margin-left:0.5em
+            }
+
+
+             #inactiveclubs td:nth-child(4),#inactiveclubstd:nth-child(5) 
+                {
+
+                 text-align:center !important;
+                }
+
+        #activatesuccess,#activatefail
+            {
+               display: none;
+            }
+            
+     
+        #inactiveclubs th
+            {
+                border-bottom:2px solid;
+                border-color: grey;
+            }
+        #inactiveclubs 
+            {
+                border-bottom:none;
+            }
+
+
+
+        #clubofficialslist th
+            {
+                border-bottom:2px solid;
+                border-color: grey;
+            }
+        #clubofficialslist
+            {
+                border-bottom:none;
+            }
+        #adminlist td:nth-child(1),#adminlist  td:nth-child(2),#adminlist  td:nth-child(6) ,#adminlist  td:nth-child(7) 
+                {
+
+                 text-align:center !important;
+                }
+         #clubmemberslist th
+            {
+                border-bottom:2px solid;
+                border-color: grey;
+            }
+        #clubmemberslist 
+            {
+                border-bottom:none;
+            }
+        #clubmemberslist td:nth-child(1),#clubmemberslist td:nth-child(2),#clubmemberslist td:nth-child(3) ,#clubmemberslist td:nth-child(4) ,
+        #clubmemberslist td:nth-child(5) ,#clubmemberslist td:nth-child(6),#clubmemberslist td:nth-child(7)  
+                {
+
+                 text-align:center !important;
+                }
+
+          #clubofficialslist th
+            {
+                border-bottom:2px solid;
+                border-color: grey;
+            }
+        #clubofficialslist 
+            {
+                border-bottom:none;
+            }
+
+         /* Centering td values in datatable*/
+            #meetingslist td:nth-child(1),td:nth-child(2),td:nth-child(3) ,td:nth-child(4) ,td:nth-child(5) ,td:nth-child(6),td:nth-child(7)  
+                        {
+
+                         text-align:center !important;
+                        }
+           
+            #meetingslist th
+                {
+                    border-bottom:2px solid;
+                    border-color: grey;
+                }
+            #meetingslist 
+                {
+                    border-bottom:none;
+        }
+            
+            .messagebox
+            {
+               display: none;
+               position:absolute;
+               width:60%;
+               top: 45%;
+               left: 20%;
+               z-index: 1000;
+            }

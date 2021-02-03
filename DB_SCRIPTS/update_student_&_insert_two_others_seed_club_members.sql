@@ -1,0 +1,5 @@
+UPDATE `clubmembers` SET `suID` = '83223' WHERE `clubmembers`.`suEmail` = "immaculate.njoroge@strathmore.edu";
+
+INSERT INTO `clubmembers` (`suID`, `firstName`, `lastName`, `gender`, `suEmail`, `clubID`, `courseID`, `telNo`, `dateRegistered`, `payment`, `status`, `updated`, `deletionStatus`, `password`, `leadership`, `roleID`, `nominated`, `membership`) VALUES ('90246', 'Victor', 'Odhiambo', 'Male', 'victor.otieno715@strathmore.edu', 'taxclub@strathmore.edu', 'BCOM', '0710901172', '0000-00-00 00:00:00.000000', '0', '1', '0000-00-00 00:00:00.000000', '0', '', '0', NULL, '1', '1');
+
+INSERT INTO `clubmembers` (`suID`, `firstName`, `lastName`, `gender`, `suEmail`, `clubID`, `courseID`, `telNo`, `dateRegistered`, `payment`, `status`, `updated`, `deletionStatus`, `password`, `leadership`, `roleID`, `nominated`, `membership`) VALUES ('78375', 'Billy', 'Otieno', 'Male', 'billy.otieno@strathmore.edu', 'enactus@strathmore.edu', 'BBIT', '0715805770', '0000-00-00 00:00:00.000000', '0', '1', '0000-00-00 00:00:00.000000', '0', '', '0', NULL, '1', '1');
